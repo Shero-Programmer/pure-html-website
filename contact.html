@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us ☕</title>
+  </head>
+  <body>
+    <header>
+      <h1>☕ The Coffee Chronicles</h1>
+      <nav>
+        <a href="index.html"> Home</a>
+        <a href="blog.html"> Blog</a>
+        <a href="recepies.html"> Coffee Recipes</a>
+        <a href="contact.html">Contact Us</a>
+      </nav>
+    </header>
+    <section>
+      <h2>Coffee Shop Receipt Form</h2>
+      <p>
+        Please fill out the Coffee Chronicles form with necessary details for
+        accurate billing and record keeping
+      </p>
+      <form>
+        <label for="receiptNumber">
+          Receipt Number:
+          <input type="text" name="receiptNumber" id="receiptNumber" />
+        </label>
+        <br />
+        <br />
+        <label for="date"> Date: </label>
+        <input type="date" name="date" id="date" />
+        <br />
+        <br />
+        <label for=""> Select Your Desired Coffee: </label>
+        <select name="" id="">
+          <option value="">Cappuccino</option>
+          <option value="">Mocha</option>
+          <option value="">Latte</option>
+          <option value="">Americano</option>
+          <option value="">Espresso</option>
+        </select>
+
+        <h3>Customer Information:</h3>
+        <h4>Name:</h4>
+        <label for="firstName">
+          <input
+            type="text"
+            name="firstName"
+            id="firstName"
+            placeholder="First Name"
+          />
+          <input
+            type="text"
+            name="lasttName"
+            id="lastName"
+            placeholder="last Name"
+          />
+        </label>
+        <h4>Address:</h4>
+        <input type="text" placeholder="Put Your Address Here" />
+        <br />
+        <br />
+        <label for="">City:</label>
+        <input type="text" placeholder="Your City" />
+        <label for="">Country:</label>
+        <input type="text" placeholder="Your City" />
+        <br />
+        <br />
+        <label for="">Your Phone Number</label>
+        <input type="number" placeholder="Phone Number" />
+        <br />
+        <br />
+        <label for="">Will You Prefer?</label>
+        <input type="radio" name="delivery" id="" /> Dine In
+        <input type="radio" name="delivery" id="" /> Home Delivery <br />
+        <br />
+        <h4>Share Your Feedback</h4>
+        <textarea name="feedback" id="" cols="50" rows="10"></textarea>
+        <br />
+        <br />
+        <label for="">Agree to our terms & conditions</label>
+        <input type="checkbox" name="" id="" /> <br />
+        <br />
+        <button type="submit">Place Your Oder</button>
+      </form>
+    </section>
+  </body>
+</html>
